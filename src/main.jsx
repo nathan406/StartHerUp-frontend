@@ -498,56 +498,7 @@ function LandingPage() {
                   Former tech executive with a passion for helping women build
                   sustainable businesses.
                 </p>
-                <div className="flex space-x-3">
-                  {/* Social icons */}
-                  <a
-                    href="#"
-                    aria-label="Twitter"
-                    className="text-pink-400 hover:text-pink-600"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8.29 20.251c7.547 0 11.675-6.253..." />
-                    </svg>
-                  </a>
-                  <a
-                    href="#"
-                    aria-label="GitHub"
-                    className="text-pink-400 hover:text-pink-600"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12 2C6.477 2..."
-                      />
-                    </svg>
-                  </a>
-                  <a
-                    href="#"
-                    aria-label="Portfolio"
-                    className="text-pink-400 hover:text-pink-600"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12 2C6.48 2..."
-                      />
-                    </svg>
-                  </a>
-                </div>
+                
               </div>
             </div>
 
@@ -569,8 +520,10 @@ function LandingPage() {
                   Connects entrepreneurs with resources, mentors, and funding
                   opportunities.
                 </p>
-                <div className="flex space-x-3">
-                  {/* Social icons */}
+
+                {/* Social icons */}
+                {/* <div className="flex space-x-3">
+                 
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -618,7 +571,7 @@ function LandingPage() {
                       />
                     </svg>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -638,8 +591,10 @@ function LandingPage() {
                   Experienced developer building accessible tech solutions for
                   women entrepreneurs.
                 </p>
-                <div className="flex space-x-3">
-                  {/* Social icons */}
+
+                {/* Social icons */}
+                {/* <div className="flex space-x-3">
+                  
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -687,7 +642,7 @@ function LandingPage() {
                       />
                     </svg>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -709,8 +664,10 @@ function LandingPage() {
                   Passionate about creating inclusive spaces for women to
                   collaborate and grow together.
                 </p>
-                <div className="flex space-x-3">
-                  {/* Social icons */}
+
+                {/* Social icons */}
+                {/* <div className="flex space-x-3">
+                  
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -758,7 +715,7 @@ function LandingPage() {
                       />
                     </svg>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
