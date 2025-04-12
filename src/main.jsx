@@ -15,7 +15,7 @@ import heroImage3 from "./assets/images/hero-img-3.jpg";
 
 // Team Members
 import Claire_Chella from "./assets/images/Claire_Chella.jpg";
-import Dr_c from "./assets/images/Dr_c.jpg";
+import Dr_c from "./assets/images/Dr_C.jpg";
 import Lulwa_Batarni from "./assets/images/Lulwa_Batarni.jpg";
 import Niza_mbaofrom from "./assets/images/Niza_Mbao.jpg";
 
