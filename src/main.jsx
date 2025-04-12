@@ -13,6 +13,12 @@ import heroImage1 from "./assets/images/hero-img-1.jpg";
 import heroImage2 from "./assets/images/hero-img-2.jpg";
 import heroImage3 from "./assets/images/hero-img-3.jpg";
 
+// Team Members
+import Claire_Chella from "./assets/images/Claire_Chella.jpg";
+import Dr_c from "./assets/images/Dr_c.jpg";
+import Lulwa_Batarni from "./assets/images/Lulwa_Batarni.jpg";
+import Niza_mbaofrom from "./assets/images/Niza_Mbao.jpg";
+
 // Landing page component
 function LandingPage() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -478,14 +484,14 @@ function LandingPage() {
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-                  alt="Portrait of Sarah Johnson"
+                  src={Claire_Chella}
+                  alt="Portrait of Claire Chella"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-pink-700">
-                  Sarah Johnson
+                  Claire Chella
                 </h3>
                 <p className="text-pink-500 mb-3">Founder & CEO</p>
                 <p className="text-gray-600 text-sm mb-4">
@@ -493,7 +499,7 @@ function LandingPage() {
                   sustainable businesses.
                 </p>
                 <div className="flex space-x-3">
-                  {/* Twitter */}
+                  {/* Social icons */}
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -507,7 +513,6 @@ function LandingPage() {
                       <path d="M8.29 20.251c7.547 0 11.675-6.253..." />
                     </svg>
                   </a>
-                  {/* GitHub */}
                   <a
                     href="#"
                     aria-label="GitHub"
@@ -525,7 +530,6 @@ function LandingPage() {
                       />
                     </svg>
                   </a>
-                  {/* Dribbble or other */}
                   <a
                     href="#"
                     aria-label="Portfolio"
@@ -551,14 +555,14 @@ function LandingPage() {
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-                  alt="Portrait of Michelle Lee"
+                  src={Lulwa_Batarni}
+                  alt="Portrait of Lulwa Batarni"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-pink-700">
-                  Michelle Lee
+                  Lulwa Batarni
                 </h3>
                 <p className="text-pink-500 mb-3">Head of Partnerships</p>
                 <p className="text-gray-600 text-sm mb-4">
@@ -566,7 +570,7 @@ function LandingPage() {
                   opportunities.
                 </p>
                 <div className="flex space-x-3">
-                  {/* Social icons similar to above */}
+                  {/* Social icons */}
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -622,22 +626,20 @@ function LandingPage() {
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-                  alt="Portrait of David Chen"
+                  src={Dr_c}
+                  alt="Portrait of Dr. C"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-pink-700">
-                  David Chen
-                </h3>
+                <h3 className="text-xl font-semibold text-pink-700">Dr. C</h3>
                 <p className="text-pink-500 mb-3">CTO & Tech Lead</p>
                 <p className="text-gray-600 text-sm mb-4">
                   Experienced developer building accessible tech solutions for
                   women entrepreneurs.
                 </p>
                 <div className="flex space-x-3">
-                  {/* Social icons similar to above */}
+                  {/* Social icons */}
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -693,14 +695,14 @@ function LandingPage() {
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
-                  alt="Portrait of Amara Okafor"
+                  src={Niza_mbaofrom}
+                  alt="Portrait of Niza Mbao"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-pink-700">
-                  Amara Okafor
+                  Niza Mbao
                 </h3>
                 <p className="text-pink-500 mb-3">Community Director</p>
                 <p className="text-gray-600 text-sm mb-4">
@@ -708,7 +710,7 @@ function LandingPage() {
                   collaborate and grow together.
                 </p>
                 <div className="flex space-x-3">
-                  {/* Social icons similar to above */}
+                  {/* Social icons */}
                   <a
                     href="#"
                     aria-label="Twitter"
@@ -759,8 +761,6 @@ function LandingPage() {
                 </div>
               </div>
             </div>
-
-            {/* Add more team members here if needed */}
           </div>
         </div>
       </section>
