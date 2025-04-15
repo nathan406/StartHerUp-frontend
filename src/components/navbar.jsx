@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'  // Add this import
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <header className="bg-white shadow-md relative">
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-        <div className="text-2xl font-bold text-pink-600">SheInnovate</div>
+        <Link to="/home" className="text-2xl font-bold text-pink-600">SheInnovate</Link>
         
         {/* Hamburger menu for mobile */}
         <button 

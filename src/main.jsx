@@ -480,29 +480,86 @@ function LandingPage() {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            {/* Team Member 1 */}
+            
+
+              {/* Team Member 1 */}
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
-                  src={Claire_Chella}
-                  alt="Portrait of Claire Chella"
+                  src={Niza_mbaofrom}
+                  alt="Portrait of Niza Mbao"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-pink-700">
-                  Claire Chella
+                  Niza Mbao
                 </h3>
-                <p className="text-pink-500 mb-3">Founder & CEO</p>
+                <p className="text-pink-500 mb-3">CEO, CTO and Co-founder</p>
                 <p className="text-gray-600 text-sm mb-4">
-                  Former tech executive with a passion for helping women build
-                  sustainable businesses.
+                  Passionate about creating inclusive spaces for women to
+                  collaborate and grow together.
                 </p>
-                
+
+                {/* Social icons */}
+                {/* <div className="flex space-x-3">
+                  
+                  <a
+                    href="#"
+                    aria-label="Twitter"
+                    className="text-pink-400 hover:text-pink-600"
+                  >
+                    <svg
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8.29 20.251c7.547 0 11.675-6.253..." />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    aria-label="GitHub"
+                    className="text-pink-400 hover:text-pink-600"
+                  >
+                    <svg
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M12 2C6.477 2..."
+                      />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    aria-label="Portfolio"
+                    className="text-pink-400 hover:text-pink-600"
+                  >
+                    <svg
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M12 2C6.48 2..."
+                      />
+                    </svg>
+                  </a>
+                </div> */}
               </div>
             </div>
 
-            {/* Team Member 2 */}
+          
+
+           
+
+            {/* Team Member 2*/}
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
@@ -515,7 +572,7 @@ function LandingPage() {
                 <h3 className="text-xl font-semibold text-pink-700">
                   Lulwa Batarni
                 </h3>
-                <p className="text-pink-500 mb-3">Head of Partnerships</p>
+                <p className="text-pink-500 mb-3">Co-founder and CBO</p>
                 <p className="text-gray-600 text-sm mb-4">
                   Connects entrepreneurs with resources, mentors, and funding
                   opportunities.
@@ -575,8 +632,8 @@ function LandingPage() {
               </div>
             </div>
 
-            {/* Team Member 3 */}
-            <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
+              {/* Team Member 3*/}
+              <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
                   src={Dr_c}
@@ -586,7 +643,7 @@ function LandingPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-pink-700">Dr. C</h3>
-                <p className="text-pink-500 mb-3">CTO & Tech Lead</p>
+                <p className="text-pink-500 mb-3">COO</p>
                 <p className="text-gray-600 text-sm mb-4">
                   Experienced developer building accessible tech solutions for
                   women entrepreneurs.
@@ -646,78 +703,29 @@ function LandingPage() {
               </div>
             </div>
 
-            {/* Team Member 4 */}
+                  {/* Team member 4*/}
             <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img
-                  src={Niza_mbaofrom}
-                  alt="Portrait of Niza Mbao"
+                  src={Claire_Chella}
+                  alt="Portrait of Claire Chella"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-pink-700">
-                  Niza Mbao
+                  Claire Chella
                 </h3>
-                <p className="text-pink-500 mb-3">Community Director</p>
+                <p className="text-pink-500 mb-3">Senior Developer</p>
                 <p className="text-gray-600 text-sm mb-4">
-                  Passionate about creating inclusive spaces for women to
-                  collaborate and grow together.
+                  Former tech executive with a passion for helping women build
+                  sustainable businesses.
                 </p>
-
-                {/* Social icons */}
-                {/* <div className="flex space-x-3">
-                  
-                  <a
-                    href="#"
-                    aria-label="Twitter"
-                    className="text-pink-400 hover:text-pink-600"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8.29 20.251c7.547 0 11.675-6.253..." />
-                    </svg>
-                  </a>
-                  <a
-                    href="#"
-                    aria-label="GitHub"
-                    className="text-pink-400 hover:text-pink-600"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12 2C6.477 2..."
-                      />
-                    </svg>
-                  </a>
-                  <a
-                    href="#"
-                    aria-label="Portfolio"
-                    className="text-pink-400 hover:text-pink-600"
-                  >
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M12 2C6.48 2..."
-                      />
-                    </svg>
-                  </a>
-                </div> */}
+                
               </div>
             </div>
+
+            
           </div>
         </div>
       </section>
