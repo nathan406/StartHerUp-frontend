@@ -12,18 +12,18 @@ const Navbar = () => {
     <header className="bg-white shadow-md relative">
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
         <Link to="/home" className="text-2xl font-bold text-pink-600">SheInnovate</Link>
-        
+
         {/* Hamburger menu for mobile */}
-        <button 
+        <button
           className="md:hidden text-pink-600 focus:outline-none"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            className="h-6 w-6" 
-            fill="none" 
-            viewBox="0 0 24 24" 
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
             stroke="currentColor"
           >
             {isMenuOpen ? (
@@ -44,12 +44,12 @@ const Navbar = () => {
               <path d="M11 6a.5.5 0 0 0-1 0v.293l-3.146 3.147a.5.5 0 0 0 .708.708L11 7.707V8a.5.5 0 0 0 1 0V6z" />
             </svg>
           </button>
-          <button className="text-sm px-4 py-2 border border-pink-500 rounded-full text-pink-500 hover:bg-pink-100">
+          <Link to="/sign" className="text-sm px-4 py-2 border border-pink-500 rounded-full text-pink-500 hover:bg-pink-100">
             Login
-          </button>
-          <button className="text-sm px-4 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600">
+          </Link>
+          <Link to="/sign" className="text-sm px-4 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600">
             Sign Up
-          </button>
+          </Link>
         </nav>
       </div>
 
@@ -60,12 +60,12 @@ const Navbar = () => {
             <a href="#" className="text-sm hover:text-pink-500">Contact</a>
             <a href="#" className="text-sm hover:text-pink-500">Terms & services</a>
             <a href="#" className="text-sm hover:text-pink-500">About</a>
-            <button className="text-sm px-4 py-2 border border-pink-500 rounded-full text-pink-500 hover:bg-pink-100 w-full">
+            <Link to="/sign" className="text-sm px-4 py-2 border border-pink-500 rounded-full text-pink-500 hover:bg-pink-100 w-full text-center">
               Login
-            </button>
-            <button className="text-sm px-4 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 w-full">
+            </Link>
+            <Link to="/sign" className="text-sm px-4 py-2 bg-pink-500 text-white rounded-full hover:bg-pink-600 w-full text-center">
               Sign Up
-            </button>
+            </Link>
           </div>
         </div>
       )}
