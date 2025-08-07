@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <header className="bg-white shadow-md relative">
       <div className="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-        <Link to="/home" className="text-2xl font-bold text-pink-600">SheInnovate</Link>
+        <Link to="/home" className="text-2xl font-bold text-pink-600">StartHerUp</Link>
 
         {/* Hamburger menu for mobile */}
         <button
