@@ -22,6 +22,7 @@ import Claire_Chella from "./assets/images/Claire_Chella.jpg";
 import Dr_c from "./assets/images/Dr_C.jpg";
 import Lulwa_Batarni from "./assets/images/Lulwa_Batarni.jpg";
 import Niza_mbaofrom from "./assets/images/Niza_Mbao.jpg";
+import Nathan_Muyoba from "./assets/images/nathan.jfif";
 
 // Landing page component
 function LandingPage() {
@@ -117,7 +118,7 @@ function LandingPage() {
                 >
                   <img
                     src={slide.image}
-                    alt={`SheInnovate - ${slide.tagline}`}
+                    alt={`StartHerUp - ${slide.tagline}`}
                     className="w-full h-full object-cover rounded-lg shadow-lg"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-pink-700 to-transparent p-4 md:p-6 text-white">
@@ -152,7 +153,7 @@ function LandingPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-pink-700 mb-6">
-              Why Join SheInnovate?
+              Why Join StartHerUp?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Discover the powerful advantages of joining our platform designed specifically for women entrepreneurs and innovators.
@@ -455,7 +456,25 @@ function LandingPage() {
                   women entrepreneurs.
                 </p>
               </div>
-            </div> 
+            </div>
+
+            {/* Team Member 4*/}
+            <div className="bg-pink-50 rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-xl hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <img
+                  src={Nathan_Muyoba}
+                  alt="Portrait of Nathan Muyoba"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold text-pink-700">Nathan Muyoba</h3>
+                <p className="text-pink-500 mb-3">Senior Developer</p>
+                <p className="text-gray-600 text-sm mb-4">
+                  Expert in full-stack development, creating scalable solutions for women entrepreneurs.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -467,7 +486,7 @@ function LandingPage() {
             Ready to Transform Your Entrepreneurial Journey?
           </h2>
           <p className="text-xl text-pink-100 mb-8">
-            Join thousands of women entrepreneurs who are already building, connecting, and thriving on SheInnovate.
+            Join thousands of women entrepreneurs who are already building, connecting, and thriving on StartHerUp.
           </p>
           <button className="bg-white text-pink-600 px-10 py-4 rounded-full text-lg font-bold hover:bg-pink-50 transition duration-300 shadow-lg">
             Join Our Community Today

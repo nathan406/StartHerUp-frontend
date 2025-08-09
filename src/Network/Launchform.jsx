@@ -142,7 +142,7 @@ const LaunchForm = ({ isOpen, onClose, onSubmit }) => {
               <X className="w-5 h-5" />
             </button>
           </div>
-          <p className="text-gray-600 mt-2">Share your innovation with the SheInnovate community</p>
+          <p className="text-gray-600 mt-2">Share your innovation with the StartHerUp community</p>
         </div>
 
         <form onSubmit={handleSubmit} className="p-6 space-y-6">

@@ -13,7 +13,7 @@ const Sign = () => {
         <div className="bg-white rounded-xl shadow-xl overflow-hidden max-w-md w-full">
           {/* Sign in header */}
           <div className="bg-pink-600 text-white py-8 px-8">
-            <h2 className="text-3xl font-bold text-center">Welcome to SheInnovate</h2>
+            <h2 className="text-3xl font-bold text-center">Welcome to StartHerUp</h2>
             <p className="text-center text-pink-100 mt-3">The platform for women entrepreneurs</p>
           </div>
 
@@ -56,7 +56,7 @@ const Sign = () => {
             </div>
 
             <div className="text-center text-sm text-gray-600 mt-6">
-              <p>New to SheInnovate?{' '}
+              <p>New to StartHerUp?{' '}
               <Link to="/sign" className="font-medium text-pink-600 hover:text-pink-500">Create an account</Link></p>
             </div>
           </div>
