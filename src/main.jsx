@@ -19,10 +19,10 @@ import messageImage from "./assets/images/message.png";
 
 // Team Members
 import Claire_Chella from "./assets/images/Claire_Chella.jpg";
-import Dr_c from "./assets/images/Dr_C.jpg";
+import Dr_c from "./assets/images/Dr_C.jpeg";
 import Lulwa_Batarni from "./assets/images/Lulwa_Batarni.jpg";
 import Niza_mbaofrom from "./assets/images/Niza_Mbao.jpg";
-import Nathan_Muyoba from "./assets/images/nathan.jfif";
+import Nathan_Muyoba from "./assets/images/nathan.jpeg";
 
 // Landing page component
 function LandingPage() {
@@ -402,7 +402,7 @@ function LandingPage() {
                 <img
                   src={Niza_mbaofrom}
                   alt="Portrait of Niza Mbao"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="p-6">
@@ -424,7 +424,7 @@ function LandingPage() {
                 <img
                   src={Lulwa_Batarni}
                   alt="Portrait of Lulwa Batarni"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="p-6">
@@ -445,7 +445,7 @@ function LandingPage() {
                 <img
                   src={Dr_c}
                   alt="Portrait of Dr. C"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="p-6">
@@ -464,7 +464,7 @@ function LandingPage() {
                 <img
                   src={Nathan_Muyoba}
                   alt="Portrait of Nathan Muyoba"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <div className="p-6">
